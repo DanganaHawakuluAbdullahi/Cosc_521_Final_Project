@@ -1,15 +1,17 @@
+# Cosc 521 Final Project  
+## Network-Based Analysis of Climate Change Claims: Focusing on Supported and Refuted Evidence
 
-# Cosc 521 Final Project - Network-Based Analysis of Climate Change Claims
+This repository contains the code and dataset required to replicate the research project titled:
 
-This repository contains the code and dataset needed to replicate the study:
-**"A Network-Based Analysis of Climate Change Claims: Focusing on Supported and Refuted Evidence".**
+**A Network-Based Analysis of Climate Change Claims: Focusing on Supported and Refuted Evidence**
 
-## How to Run the Code
+The aim of this study is to analyze how climate-related claims are semantically connected, identify influential claims using centrality measures, and detect misinformation hotspots by comparing semantically similar Supported and Refuted claims.
 
-1. Open RStudio.
-2. Install required packages (once):
+---
 
-   ```r
-   install.packages(c("reticulate", "readr", "dplyr", "igraph", "proxy", "DT", "stringr"))
+### Required R Packages  
+Install the required R packages (only once) by running:
 
+```r
+install.packages(c("reticulate", "readr", "dplyr", "igraph", "proxy", "DT", "stringr"))
 
